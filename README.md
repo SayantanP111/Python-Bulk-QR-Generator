@@ -5,3 +5,6 @@ In the file 'csv_qr.csv' contains two columns.
 --> second column 'file_name' contains the file name that the image will save. Don't use .png extention over there because it will automatically done.
 --> make sure python 3 is installed in your system.
 --> For linux user: ==> Download two files ==> place in a directory ==> fill up the csv_qr.csv file == save the csv file ==> right click ==> Open in terminal ==>type ==>$ python3 bulk_qr.py ==> hit enter key. ----> Wait a few second and enjoy........
+#Note:
+Default size of the qr code will be 200 X 200 pixels.
+If you want to customize it as 450 X 450 pixel then please change code in the bulk_qr.py file as "https://api.qrserver.com/v1/create-qr-code/?size=450x450&data"
